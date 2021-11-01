@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical documentation page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <header id="main-header">HTML Documentation</header>
+            <a href="#introduction" class="nav-link">Introduction</a>
+            <a href="#heading" class="nav-link">Heading</a>
+            <a href="#paragraph" class="nav-link">Paragraph</a>
+            <a href="#list" class="nav-link">List</a>
+            <a href="#font" class="nav-link">Font</a>
+        </nav>
+
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header id="main-second">Introduction</header>
+                <p>Html is Standard for Hyper Text Markup Language.which is the most widely used language on web to develop web pages.</p>
+                <ul>
+                  <li>HTML describes the structure of a Web page.HTML describes the             
+                      structure of a Web page and consists of a series of elements.
+                 </li>
+                  <li>HTML elements tell the browser how to display the content.
+                  </li>
+                  <li>
+                      HTML tags label pieces of content such as "heading",                     
+                       "paragraph", "table", and so on.
+                    </li>
+                  <li>Browsers do not display the HTML tags, but use them to render 
+                      the content of the page.
+                 </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="heading">
+                <header id="main-second">Heading</header>
+                <p>The &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; tags are used to define HTML headings.</p>
+                <ul>
+                    <li>&lt;h1&gt; defines the most important heading and important for SEO.</li>
+                    <li>&lt;h6&gt; defines the least important heading.</li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="paragraph">
+                <header id="main-second">Paragraph</header>
+                <p>
+                 <ul>
+                    <li>The &lt;p&gt; tag is used to define the HTML paragraph element.</li>
+                    <li>The paragraph element begins with the &lt;p&gt; tag and ends with the &lt;/p&gt; tag.</li>
+                    <li>The HTML paragraph element should not cotain tables and other block elements.</li>
+                </ul>
+                </p>
+            </section>
+
+            <section class="main-section" id="list">
+                <header id="main-second">List</header>
+                <p>Html offers web authors three ways for specifying lists of information.All lists must contain one or more list elements.</p>
+                <p>
+                  <ul>
+                    <li>(ul)- An unordered list. This will list items using plain bullets.</li>
+                    <li>(ol)- An ordered list. This will use different schemes of numbers to list your items.</li>
+                    <li>(dl)- A description list is a list of terms, with a description of each term.</li>
+                  </ul>
+                </p>
+
+                <p>
+                   <code>
+                        <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                        </ul>
+                    </code>
+                </p>
+
+                <p>
+                    <code> 
+                        <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ol>
+                    </code>
+                </p>
+            </section>
+
+            <section class="main-section" id="font">
+                <header id="main-second">Font</header>
+                <p>Font tag is having three attribute called size, color and face to customize your fonts.
+                    To change any of the font attribute at any time within your webpage.
+                </p>
+                <p>Simply use the <strong>font</strong> tag.The text that follows will remain changed until you close with the <strong>font</strong> tag.
+                    You can change one or all of the font attribute with one <strong>font</strong> tag.
+                </p>
+                <p><strong>Note;</strong> The font and basefont tags are deprecated and it is supposed to be removed in a future version of HTML.
+                    So they should not be used rather,It's suggested to use CSS styles to manipulate your fonts.
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
